@@ -17,14 +17,19 @@ Disclaimer: `submission.csv` is not coded for optimal prediction yet. Currently 
 **Objective**: Use machine learning to create a model that predicts which passengers survived the Titanic shipwreck by using passenger data (ie name, age, gender, socio-economic class, etc).
 
 Notes on Submissions: 
-- `07.15.20-submission.csv` 
+- `first-submission.csv` 
 	- Model: Random Forests
 	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
 	- Categorization accuracy score: 0.59569
 
-- `07.22.20-submission.csv`
+- `second-submission.csv`
 	- Model: Random Forests
 	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Categorization accuracy score: 0.76555
 
+- `third-submission.csv`
+	- Model: Logistic Regression
+	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
+	- Used Hyperparameter Tuning - GridSearchCV
+	- Categorization accuracy score: 0.77511
