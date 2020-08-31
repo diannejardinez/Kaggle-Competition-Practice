@@ -5,7 +5,35 @@
 
 **Objective**: Predict the sales price of individual residential property in Ames, Iowa from 2006 to 2010. For each Id in the test set, a prediction value should be populated for the SalePrice variable.
 
-Disclaimer: `submission.csv` is not coded for optimal prediction yet. Currently the file has a high Root-Mean-Squared-Error (RMSE) score between the logarithm of the predicted value and the logarithm of the observed sales price. 
+Notes on Submissions: 
+- `first-submission.csv` 
+	- Model: Random Forests
+	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
+	- Root-Mean-Squared-Error (RMSE) score: 22337.06
+
+- `second-submission.csv`
+	- Model: Gradient Boosting Regression
+	- Features: All table variables
+	- Used Hyperparameter Tuning - GridSearchCV
+	- Root-Mean-Squared-Error (RMSE) score: 182906.48
+
+- `third-submission.csv`
+	- Model: Gradient Boosting Regression
+	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
+	- Used Hyperparameter Tuning - GridSearchCV
+	- Root-Mean-Squared-Error (RMSE) score: 182906.48
+
+- `third-submission.csv`
+	- Model: Linear Regression
+	- Features: `['MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond',
+       'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
+       'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+       'GrLivArea',  'FullBath', 'HalfBath',
+       'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces',
+        'GarageCars',  'WoodDeckSF', 'OpenPorchSF',
+       'EnclosedPorch',  'ScreenPorch', 'PoolArea']`
+	- Root-Mean-Squared-Error (RMSE) score: 20476.40
+
 
 
 ---
