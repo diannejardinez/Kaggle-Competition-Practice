@@ -18,6 +18,12 @@ Notes on Submissions:
 	- Root-Mean-Squared-Error (RMSE) score: 182906.48
 
 - `third-submission.csv`
+	- Algorithm: Gradient Boosting Regression
+	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
+	- Used Hyperparameter Tuning - GridSearchCV
+	- Root-Mean-Squared-Error (RMSE) score: 182906.48
+
+- `fourth-submission.csv`
 	- Algorithm: Linear Regression
 	- Features: `['MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond',
        'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
@@ -26,14 +32,7 @@ Notes on Submissions:
        'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces',
         'GarageCars',  'WoodDeckSF', 'OpenPorchSF',
        'EnclosedPorch',  'ScreenPorch', 'PoolArea']`
-	- Root-Mean-Squared-Error (RMSE) score: 20476.40
-
-- `fourth-submission.csv`
-	- Algorithm: Gradient Boosting Regression
-	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
-	- Used Hyperparameter Tuning - GridSearchCV
-	- Root-Mean-Squared-Error (RMSE) score: 182906.48
-	
+	- Root-Mean-Squared-Error (RMSE) score: 20476.40	
 
 ---
 
