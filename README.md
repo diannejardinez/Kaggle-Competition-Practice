@@ -7,24 +7,24 @@
 
 Notes on Submissions: 
 - `first-submission.csv` 
-	- Model: Random Forests
+	- Algorithm: Random Forests
 	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
 	- Root-Mean-Squared-Error (RMSE) score: 22337.06
 
 - `second-submission.csv`
-	- Model: Gradient Boosting Regression
+	- Algorithm: Gradient Boosting Regression
 	- Features: All table variables
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Root-Mean-Squared-Error (RMSE) score: 182906.48
 
 - `fourth-submission.csv`
-	- Model: Gradient Boosting Regression
+	- Algorithm: Gradient Boosting Regression
 	- Features: `['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']`
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Root-Mean-Squared-Error (RMSE) score: 182906.48
 
 - `third-submission.csv`
-	- Model: Linear Regression
+	- Algorithm: Linear Regression
 	- Features: `['MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond',
        'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
        'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
@@ -46,18 +46,27 @@ Notes on Submissions:
 
 Notes on Submissions: 
 - `first-submission.csv` 
-	- Model: Random Forests
-	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
+	- Algorithm: Random Forests
+	- Features: `['Pclass', 'Sex', 'SibSp', 'Parch']`
 	- Categorization accuracy score: 0.59569
 
 - `second-submission.csv`
-	- Model: Random Forests
-	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
+	- Algorithm: Random Forests
+	- Features: `['Pclass', 'Sex', 'SibSp', 'Parch']`
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Categorization accuracy score: 0.76555
 
 - `third-submission.csv`
-	- Model: Logistic Regression
-	- Features: Ticket class, Gender, number of siblings/spouses aboard the Titanic, number of parents / children aboard the Titanic
+	- Algorithm: Logistic Regression
+	- Features: `["Pclass", "Sex", "SibSp", "Parch"]`
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Categorization accuracy score: 0.77511
+
+- `fourth-submission.csv`
+	- Algorithm: Random Forests
+	- Features: `['Pclass','Sex','Age','Fare','Family_cnt','Cabin_ind']`
+	- Used Hyperparameter Tuning - GridSearchCV
+	- Categorization accuracy score: 0.78708
+
+
+	
