@@ -58,7 +58,7 @@ Notes on Submissions:
 
 - `third-submission.csv`
 	- Algorithm: Logistic Regression
-	- Features: `["Pclass", "Sex", "SibSp", "Parch"]`
+	- Features: `['Pclass', 'Sex', 'SibSp', 'Parch']`
 	- Used Hyperparameter Tuning - GridSearchCV
 	- Categorization accuracy score: 0.77511
 
